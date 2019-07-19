@@ -12,8 +12,10 @@ class MainActivity : AppCompatActivity() {
 
         val human1 = Human("太郎", 21, "読書")
         human1.say()
+        human1.think()
 
         val human2 = Human("花子", 21, "生け花")
+        human2.say()
         human2.think()
     }
 }
